@@ -27,8 +27,8 @@ git clone git@github.com:ZH-L1N/claude-ship.git ~/.claude/skills/ship
 
 ## Companions
 
-- [adversarial-plan-review](https://github.com/Exowatt-Labs/adversarial-plan-review)
-  — the Stage 3 reviewer loop; /ship drives it in orchestrated mode. Its
-  scripts need `uv run --no-project --with openai python …`.
+- **adversarial-plan-review** — the Stage 3 reviewer loop; /ship drives it in
+  orchestrated mode. Its scripts need
+  `uv run --no-project --with openai python …`.
 - [claude-time-sense](https://github.com/ZH-L1N/claude-time-sense) — the
   `plans/TIMELINE.md` ledger grammar Stage 7 stamps on every ship.

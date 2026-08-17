@@ -79,7 +79,7 @@ separate spec. The call and its one-line justification are logged in the final r
 ### Stage 4 — Implement via Workflow tool
 - Decompose the plan into tasks with explicit dependencies → Workflow script
   (`pipeline()` per dependency chain; `parallel()` only for genuinely independent tasks).
-- Model policy (org guidance): **Fable** for large/complex/critical tasks, **Opus**
+- Model policy: **Fable** for large/complex/critical tasks, **Opus**
   for most implementation work, **Sonnet** for highly parallel easy/mechanical work.
   Effort tiers matched likewise.
 - Worktree isolation (`isolation: 'worktree'`) only when parallel agents would touch
